@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    height: 500px;
+    width: 500px;
+  }
+.section {
+    top: 0;
+    transition: 1s ease-out;
+    -webkit-transition: 1s ease-out;
+}
+
+.panel {
+    height: 100vh;
+    width: 100%;
+}
+.panel1 {
+    height: 100vh;
+    width: 100%;
+    padding-top: 5%;
+}
+.panel2 {
+  padding-top: 0%;
+}
+.panel3 {
+  height: 100vh;
+  width: 100%;
+  padding-top: 5%;
+}
+.bgr-1{
+  background-image: url("../foto/homes1.png");background-position: center;background-repeat: no-repeat; background-size: cover; position: relative;
+}
+.bgr-2{
+  background-image: url("../image_new/home/page1_dont.png");background-position: center;background-repeat: no-repeat; background-size: cover; position: relative;
+}
+.bgr-3{
+  background-image: url("../image_new/our_story/9.png");background-position: center;background-repeat: no-repeat; background-size: cover; position: relative;color: black !important;
+}
+.bgr-4{
+  background-image: url("../image_new/join_comunity/WeSpeakPurpose.png");background-position: center;background-repeat: no-repeat; background-size: cover; position: relative;
+}
+.bgr-5{
+  background-image: url("../image_new/join_comunity/1.png");background-position: center;background-repeat: no-repeat; background-size: cover; position: relative;
+  padding-top:15%;filter: grayscale(100%);
+}
+.bgr-6{
+  background-image: url("../foto/ingredient_home.png");background-position: center;background-repeat: no-repeat; background-size: cover; position: relative;
+}
+.bgr-7{
+  background-image: url("../image_new/become_official_reseller/1.png");background-position: center;background-repeat: no-repeat; background-size: cover; position: relative;
+}
+.bgr-8{
+  background-image: url("../image_new/become_official_reseller/4.png");background-position: center;background-repeat: no-repeat; background-size: cover; position: relative;
+}
+.bgr-9{
+  background-image: url("../image_new/become_official_reseller/alasan-v1.png");background-position: center;background-repeat: no-repeat; background-size: cover; position: relative;
+}
+.bgr-10{
+  background-image: url("../image_new/become_official_reseller/syarat-v1.png");background-position: center;background-repeat: no-repeat; background-size: cover; position: relative;
+}
+.bgr-11{
+  background-image: url("../image_new/our_story/1.jpg");background-position: center;background-repeat: no-repeat; background-size: cover; position: relative;
+}
+.bgr-12{
+  background-image: url("../image_new/become_official_reseller/33.png");background-position: center;background-repeat: no-repeat; background-size: cover; position: relative;
+}
+@media (max-width: 1000px){
+  .bgr-3{
+  background-image: url("../image_new/our_story/9-v1.png");background-position: center;background-repeat: no-repeat; background-size: cover; position: relative;
+}
+  .bgr-6{
+  background-image: url("../image_new/our_story/9-v1.png");background-position: center;background-repeat: no-repeat; background-size: cover; position: relative;
+}
+  .bgr-1 {
+    background-image: url("../foto/homes1-v2.png");background-position: center;background-repeat: no-repeat; background-size: cover; position: relative;
+
+  }
+  .bgr-5{
+    background-image: url("../image_new/join_comunity/2.png");background-position: center;background-repeat: no-repeat; background-size: cover; position: relative;
+    padding-top:15%;
+  }
+  .bgr-9{
+    background-image: url("../image_new/become_official_reseller/alasan-v1.png");background-position: center;background-repeat: no-repeat; background-size: cover; position: relative;
+  }
+  .bgr-10{
+    background-image: url("../image_new/become_official_reseller/syarat-v1.png");background-position: center;background-repeat: no-repeat; background-size: cover; position: relative;
+  }
+  .bgr-12{
+    background-image: url("../image_new/become_official_reseller/33.png");background-position: center;background-repeat: no-repeat; background-size: cover; position: relative;
+  }
+
+}
+@media (max-width: 768px){
+  .bgr-1 {
+    background-image: url("");background-color: black;
+
+  }
+  .bgr-8 {
+    background-image: url("");background-color: #f1f1f1;
+
+  }
+  .bgr-12 {
+    background-image: url("");background-color: #f1f1f1;
+
+  }
+  .bgr-11 {
+    background-image: url("");background-color: white;
+
+  }
+  .bgr-9{
+    background-image: url("");background-color: #f1f1f1;
+  }
+  .bgr-10{
+    background-image: url("");background-color: #f1f1f1;
+  }
+  .bgr-3{
+      background-image: url("../image_new/our_story/9-m.jpg");background-position: center;background-repeat: no-repeat; background-size: cover; position: relative;
+    }
+  .color{
+    color: white;
+  }
+  .bgr-7{
+      background-image: url("../image_new/become_official_reseller/1-m.jpg");background-position: center;background-repeat: no-repeat; background-size: cover; position: relative;
+    }
+  .bgr-4{
+    background-image: url("../image_new/join_comunity/5.jpg");background-position: center;background-repeat: no-repeat; background-size: cover; position: relative;
+  }
+  .panel1 {
+    height: 200vh;
+    padding-top: 0%;
+  }
+  .bgr-5 {
+    background-image: url("../image_new/join_comunity/2.png");background-position: center;background-repeat: no-repeat; background-size: cover; position: relative;
+
+    padding-top:15%;
+
+  }
+  .panel2 {
+      height: 100vh;
+      width: 100%;
+      padding-top: 10%;
+  }
+
+
+}
