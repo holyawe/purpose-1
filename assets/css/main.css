@@ -3673,3 +3673,10 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
     }
 
   }
+  .embed-responsive {
+    width: 100%;
+    margin: 0 auto;
+}
+video {
+  width: 100%;
+}
